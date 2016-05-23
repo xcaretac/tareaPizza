@@ -20,6 +20,11 @@
 		B967BB801CF2EBDC0024C87B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B967BB7F1CF2EBDC0024C87B /* InterfaceController.swift */; };
 		B967BB821CF2EBDC0024C87B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B967BB811CF2EBDC0024C87B /* ExtensionDelegate.swift */; };
 		B967BB841CF2EBDC0024C87B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B967BB831CF2EBDC0024C87B /* Assets.xcassets */; };
+		B967BB9B1CF2F4370024C87B /* tipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B967BB9A1CF2F4370024C87B /* tipoMasa.swift */; settings = {ASSET_TAGS = (); }; };
+		B967BBA11CF2FA850024C87B /* TipoQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = B967BBA01CF2FA850024C87B /* TipoQueso.swift */; settings = {ASSET_TAGS = (); }; };
+		B98E3B961CF38FB700CC8A04 /* ElegirIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E3B951CF38FB700CC8A04 /* ElegirIngredientes.swift */; settings = {ASSET_TAGS = (); }; };
+		B98E3B981CF3C44900CC8A04 /* confirmarOrden.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E3B971CF3C44900CC8A04 /* confirmarOrden.swift */; settings = {ASSET_TAGS = (); }; };
+		B9AC0D3B1CF35E7700F91927 /* Valores.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC0D3A1CF35E7700F91927 /* Valores.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +96,11 @@
 		B967BB811CF2EBDC0024C87B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		B967BB831CF2EBDC0024C87B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B967BB851CF2EBDC0024C87B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B967BB9A1CF2F4370024C87B /* tipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tipoMasa.swift; sourceTree = "<group>"; };
+		B967BBA01CF2FA850024C87B /* TipoQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQueso.swift; sourceTree = "<group>"; };
+		B98E3B951CF38FB700CC8A04 /* ElegirIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElegirIngredientes.swift; sourceTree = "<group>"; };
+		B98E3B971CF3C44900CC8A04 /* confirmarOrden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = confirmarOrden.swift; sourceTree = "<group>"; };
+		B9AC0D3A1CF35E7700F91927 /* Valores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Valores.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +189,11 @@
 				B967BB811CF2EBDC0024C87B /* ExtensionDelegate.swift */,
 				B967BB831CF2EBDC0024C87B /* Assets.xcassets */,
 				B967BB851CF2EBDC0024C87B /* Info.plist */,
+				B967BB9A1CF2F4370024C87B /* tipoMasa.swift */,
+				B967BBA01CF2FA850024C87B /* TipoQueso.swift */,
+				B9AC0D3A1CF35E7700F91927 /* Valores.swift */,
+				B98E3B951CF38FB700CC8A04 /* ElegirIngredientes.swift */,
+				B98E3B971CF3C44900CC8A04 /* confirmarOrden.swift */,
 			);
 			path = "CreaTuPizzaAW WatchKit Extension";
 			sourceTree = "<group>";
@@ -361,8 +376,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98E3B961CF38FB700CC8A04 /* ElegirIngredientes.swift in Sources */,
 				B967BB821CF2EBDC0024C87B /* ExtensionDelegate.swift in Sources */,
+				B98E3B981CF3C44900CC8A04 /* confirmarOrden.swift in Sources */,
+				B9AC0D3B1CF35E7700F91927 /* Valores.swift in Sources */,
 				B967BB801CF2EBDC0024C87B /* InterfaceController.swift in Sources */,
+				B967BB9B1CF2F4370024C87B /* tipoMasa.swift in Sources */,
+				B967BBA11CF2FA850024C87B /* TipoQueso.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +642,7 @@
 				B967BB8A1CF2EBDC0024C87B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B967BB8C1CF2EBDC0024C87B /* Build configuration list for PBXNativeTarget "CreaTuPizzaAW WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +651,7 @@
 				B967BB8E1CF2EBDC0024C87B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B967BB901CF2EBDC0024C87B /* Build configuration list for PBXNativeTarget "CreaTuPizzaAW" */ = {
 			isa = XCConfigurationList;
@@ -638,6 +660,7 @@
 				B967BB921CF2EBDC0024C87B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B967BB931CF2EBDC0024C87B /* Build configuration list for PBXNativeTarget "CreaTuPizzaAWTests" */ = {
 			isa = XCConfigurationList;
@@ -646,6 +669,7 @@
 				B967BB951CF2EBDC0024C87B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
